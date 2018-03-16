@@ -49,7 +49,9 @@ public class HelloWorld2{
 		System.out.println("Roll dice! (6 sided die)");
 		Random r =new Random(); // only once
 		int z=r.nextInt(6)+1; //nextInt=0 to smth -1 so +1 to reach 6
-		System.out.println("number is " +  z)
+		System.out.println("number is " +  z);
+		
+		//added System.out.print();
 	}
 }
 
